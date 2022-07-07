@@ -1,6 +1,7 @@
 # Reddit ReactJS
 
-A small side project built with ReactJS, @reduxjs/toolkit, firebase storage and Bootstrap
+- A small side project built with ReactJS, @reduxjs/toolkit, firebase storage and Bootstrap
+- Link to backend sourcecode: https://github.com/longpanhpanh/reddit-springboot
 
 # Some demo features
 
