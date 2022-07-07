@@ -3,7 +3,7 @@ import { getStorage } from 'firebase/storage'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBZrSsb-dky9gJyN1TX_xv7O8FTMPZwrdE",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "image-spring-reddit.firebaseapp.com",
   projectId: "image-spring-reddit",
   storageBucket: "image-spring-reddit.appspot.com",
