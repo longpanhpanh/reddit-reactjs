@@ -1,0 +1,13 @@
+.error-message {
+  display: none;
+  color: red;
+  font-size: 12px;
+}
+
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}

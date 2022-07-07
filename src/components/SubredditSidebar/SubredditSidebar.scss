@@ -1,0 +1,21 @@
+.sidebar-view-subreddit {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 350px;
+  width: 312px;
+  height: 242px;
+  --post-line-color: #ccc;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #878a8c;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar-view-subreddit {
+  height: 280px;
+}
