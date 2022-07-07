@@ -93,9 +93,11 @@ const ViewPost = () => {
                   <p className="post-text">{post.description}</p>
                 </div>
 
-                <div className="post-image-wrapper">
-                  <img src={post.postImg} alt="" />
-                </div>
+                {post.postImg && (
+                  <div className="post-image-wrapper">
+                    <img src={post.postImg} alt="" />
+                  </div>
+                )}
 
                 <div className="post-comment mt-3">
                   <form onSubmit={handleSubmitComment}>
